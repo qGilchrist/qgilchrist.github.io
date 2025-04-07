@@ -1,0 +1,57 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: yellow;
+}
+
+body {
+    background-color: #0d1117;
+    color: white;
+}
+
+#top_header {
+    grid-area: 1/ 1 /span 1 / span 3;
+}
+
+footer {
+    grid-area: 10 / 1 /span 1 / span 3;
+    text-align: center;
+}
+
+p {
+    text-indent: 50px;
+}
+
+#page {
+    grid-area: 3 / 1 /span 6/ span 3;
+    border-radius: 5px;
+    border-color: red;
+    border-style: dashed;
+    text-align: left;
+    padding: 10px;
+}
+
+.pageLayout {
+    display: grid;
+}
+
+#sideBbarL ul {
+    background-color: green;
+}
+
+#toolbar {
+    border-radius: 5px;
+    border-color: red;
+    border-style: groove;
+    grid-area: 2 / 1 / span 1 / span 3;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: inherit;
+}
+
+
+
