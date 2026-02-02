@@ -1,9 +1,10 @@
 $(document).ready(function () {
     const date = new Date();
     console.log("Current Year: "+ date.getFullYear());
-    document.getElementById("date").innerHTML = date.getFullYear();
-
     getReadMe();
+
+    $("#readMe").innerHTML = $("#readMe").innerHTML +"<br>"+ date.getFullYear();
+
 });
 
 function getReadMe() {
