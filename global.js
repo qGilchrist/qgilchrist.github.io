@@ -1,6 +1,7 @@
 $(document).ready(function () {
     getReadMe();
     let date = Date().getFullYear();
+    console.log("Date: "+date);
 }
 );
 
