@@ -1,14 +1,15 @@
 $(document).ready(function () {
+    const year = new Date().getFullYear();
+    console.log("Current Year: "+ year);
+    $("#date").innerHTML = year;
     getReadMe();
-    let date = Date().getFullYear();
-    console.log("Date: "+date);
 }
 );
 
 function getReadMe() {
     $("#readMe").load("README.md", function(response, status, xhr){
         
-    console.log("getReadMe fucntion log: status: "+ status+", xhr: "+xhr+" resp: "+response);
+    console.log("getReadMe function log: status: "+ status+", xhr: "+xhr+" resp: "+response);
     });
 }
 
